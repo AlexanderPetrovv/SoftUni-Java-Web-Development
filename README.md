@@ -16,8 +16,6 @@
 - Working with users, roles and sessions
 - Testing and deployment
 
----
-
 ## Module Structure
 ### Java Web Development Basics
 This course is an introduction to basic web development principles such as HTTP protocol, sessions and ways of preserving the state, data caching, various data protocols, and security of applications.
