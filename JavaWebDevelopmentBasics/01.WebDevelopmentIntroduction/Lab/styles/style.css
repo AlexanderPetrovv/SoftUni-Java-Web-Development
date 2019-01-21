@@ -1,0 +1,63 @@
+/*-----Receipt-----*/
+td[colspan="2"], [colspan="3"]{
+    text-align: center;
+    font-weight: bold;
+}
+
+td[colspan="4"] {
+    font-style: italic;
+}
+
+/*-----Borders-----*/
+p.border {
+    border: 2px solid;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+.red {
+    border-color: red !important;
+}
+
+.green {
+    border-color: green !important;
+}
+
+.blue {
+    border-color: blue !important;
+}
+
+.red span {
+    color: red;
+}
+
+.green span {
+    color: green;
+}
+
+.blue span {
+    color: blue;
+}
+
+/*-----Rectangles-----*/
+.outer {
+    display: inline-block;
+    border: 3px dotted blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.middle {
+    border: 2px dashed red;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.inner {
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
