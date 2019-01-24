@@ -95,7 +95,6 @@ public class HttpParser {
         }
     }
 
-
     private static LinkedHashMap<String, String> getBodyParams(List<String> request) {
         if ("\r\n".equals(request.get(request.size() - 1))) {
             return new LinkedHashMap<>();
