@@ -7,7 +7,6 @@ import java.io.*;
 
 public class Application {
     public static void main(String[] args) {
-
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             Runnable engine = new Engine(reader);
