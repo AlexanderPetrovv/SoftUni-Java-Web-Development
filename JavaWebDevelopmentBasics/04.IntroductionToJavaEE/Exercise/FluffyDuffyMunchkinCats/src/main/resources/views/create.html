@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FDMC</title>
+</head>
+<body>
+    <h1>Create a Cat!</h1>
+    <form action="/cats/create" method="post">
+        <label for="name">Name:</label>
+        <input placeholder="Enter Cat Name" type="text" id="name" name="name"/>
+        <br/>
+        <label for="breed">Breed:</label>
+        <input placeholder="Enter Cat Breed" type="text" id="breed" name="breed">
+        <br/>
+        <label for="color">Color:</label>
+        <input placeholder="Enter Cat Color" type="text" id="color" name="color">
+        <br/>
+        <label for="age">Age:</label>
+        <input placeholder="Enter Cat Age" type="number" id="age" name="age">
+        <br/>
+        <input type="submit" value="Create Cat">
+    </form>
+    <hr/>
+    <a href="/">Back to Home</a>
+</body>
+</html>
