@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 
 @WebServlet("/2")
 public class HomeServlet2 extends HttpServlet {
+
     private final UsersService usersService;
 
     @Inject
